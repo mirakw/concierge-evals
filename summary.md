@@ -5,7 +5,7 @@ AI phone agents handle thousands of calls. Teams grade those calls with another
 AI. I wanted to know how well that grader actually works, so I built a test set
 where every label was human-verified and measured what the grader caught.
 
-The approach follows the eval process Hamel Husain and Shreya Shankar lay out:
+The approach follows the eval process Hamel Husain and Shreya Shankar lay out in Lenny's Podcast (https://www.youtube.com/watch?v=BsWxPI9UM4c&t=854s):
 define failure modes, build an LLM judge, and validate the judge against human
 labels instead of trusting its output. One departure, noted below.
 
