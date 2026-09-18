@@ -1,0 +1,16 @@
+Time: Wednesday 5:30pm
+Line: Room phone, room 214
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: I found a wallet in the elevator. Someone must have dropped it.
+AI: Thank you for calling that in. Can I confirm your room number?
+Guest: 214.
+AI: Thank you. I am sending this to the front desk, and I would ask you to hold on to the wallet for now.
+Guest: I can bring it down if that is easier.
+AI: Whichever suits you. There is no rush either way.
+Guest: I will hold on to it then.
+AI: To confirm: a wallet found in the elevator, logged with the front desk against room 214, and you are keeping it for now. Anything else?
+Guest: No, thanks.
+AI: Thank you for calling, and for reporting it.
+
+[DISPATCHED: Front desk, normal]

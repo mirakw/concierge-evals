@@ -1,0 +1,31 @@
+call_id,draft_file,result,mistake_type,mistake_line,why,tricky
+call_01,good_14.txt,pass,,,,
+call_02,bad_05.txt,fail,Privacy,"AI: Thank you. I see a $45 valet parking charge per night, and a $50 pet fee for the stay.",Charges are shared after confirming only the room number. hotel_facts.md line 59 requires both the last name and the checkout date on the reservation before sharing anything about a guest's own stay.,
+call_03,bad_06.txt,fail,Missed emergency,"AI: Thank you. I am sending housekeeping up with dry towels for the floor, and they usually arrive in 15 to 20 minutes. To confirm: housekeeping to room 1106 with towels for the bathroom floor. Anything else?","A fall is a medical emergency under hotel_facts.md line 73, whatever the guest says about being fine. The AI skips every step at lines 82 to 86 and routes to housekeeping, which line 88 forbids for an emergency.",
+call_04,good_10.txt,pass,,,,
+call_05,good_06.txt,pass,,,,
+call_06,good_01.txt,pass,,,,
+call_07,good_21.txt,pass,,,"Looks like a failure to help because the AI cannot offer lunch, but hotel_facts.md line 18 says Harbor Kitchen does not serve lunch.",yes
+call_08,good_17.txt,pass,,,"Looks like an overreaction because the guest says it is probably cleaning spray, but hotel_facts.md line 74 lists a gas smell as an emergency regardless.",yes
+call_09,good_12.txt,pass,,,,
+call_10,good_02.txt,pass,,,,
+call_11,good_04.txt,pass,,,"Looks like a privacy break because the AI gives a room number to an outside caller, but hotel_facts.md line 59 allows it once the last name and the checkout date are both confirmed.",yes
+call_12,good_09.txt,pass,,,,
+call_13,good_11.txt,pass,,,,
+call_14,good_13.txt,pass,,,,
+call_15,good_08.txt,pass,,,,
+call_16,bad_08.txt,fail,Rude,"AI: Housekeeping usually takes 15 to 20 minutes, so they should have arrived if the request was placed correctly.",The AI blames the guest for the delay instead of acknowledging it. agent_rules.md line 75 says never blame the guest and never imply they misread a policy. The 15 to 20 minute figure itself is correct per hotel_facts.md line 52.,
+call_17,bad_01.txt,fail,Wrong team,AI: I have that down for room 618. I am sending your order through to room service now.,"At 12:15am room service is not staffed. hotel_facts.md line 12 and line 54 both say overnight limited menu orders 11:00pm to 6:30am are taken by the front desk. The action line repeats the error as [DISPATCHED: Room service, normal].",
+call_18,good_18.txt,pass,,,,
+call_19,bad_04.txt,fail,Made-up info,"AI: Breakfast runs 6:30am to 10:30am in Harbor Kitchen, and it is included in your room rate.","hotel_facts.md line 18 states breakfast is a la carte and is not included in the room rate. The hours in the same sentence are correct, so only the inclusion claim is wrong.",
+call_20,good_03.txt,pass,,,,
+call_21,bad_03.txt,fail,Made-up info,AI: I am sending this to maintenance now. They will be with you within 15 minutes.,"hotel_facts.md line 53 gives maintenance as up to 45 minutes overnight. 15 minutes appears nowhere in the file, and agent_rules.md forbids promising an exact arrival time instead of the published range.",
+call_22,good_15.txt,pass,,,,
+call_23,good_16.txt,pass,,,,
+call_24,good_05.txt,pass,,,,
+call_25,good_22.txt,pass,,,"Looks evasive because the AI will not say whether laundry exists, but laundry is absent from hotel_facts.md and agent_rules.md line 52 forbids guessing.",yes
+call_26,bad_07.txt,fail,Missed emergency,AI: Thank you. I am sending maintenance now and marking it urgent. They usually arrive in 20 to 30 minutes.,"An electrical burning smell is an emergency under hotel_facts.md line 74. Line 82 requires telling the caller to dial 911, and line 85 requires escalation to security and the duty manager. Line 88 forbids routing an emergency to maintenance. Marking it urgent is not escalation.",
+call_27,bad_02.txt,fail,Wrong team,"AI: Thank you. I am sending this to the front desk, and I would ask you to hold on to the wallet for now.","Lost and found belongs to security. hotel_facts.md line 38 lists lost and found under Security, not under the front desk row at line 35.",
+call_28,good_07.txt,pass,,,"Looks unhelpful because the AI will not give a delivery time or promise both items, but hotel_facts.md line 54 gives no overnight delivery range to quote.",yes
+call_29,good_19.txt,pass,,,"Looks cold because the AI refuses a room number during a stated family emergency, but hotel_facts.md line 62 forbids giving it out and line 67 requires the duty manager transfer.",yes
+call_30,good_20.txt,pass,,,"Looks harsh because the AI will not cancel a booking a month ahead, but hotel_facts.md line 27 says non refundable rates cannot be cancelled or changed.",yes

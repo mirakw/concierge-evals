@@ -1,0 +1,16 @@
+Time: Saturday 2:15pm
+Line: Room phone, room 612
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: We would like dinner at the restaurant tonight. Can you set that up?
+AI: Happy to help. Harbor Kitchen serves dinner from 5:30pm to 10:00pm. What time were you hoping for, and how many people?
+Guest: Four of us, around 7:30 if that works.
+AI: 7:30pm is inside dinner service. I do not have table availability in front of me, so I am passing this to our concierge to confirm the booking.
+Guest: Can they let me know either way?
+AI: I am sending it to the concierge as a request, and they work on requests the same day.
+Guest: That works.
+AI: To confirm: I am passing a request to the concierge for a table for four at Harbor Kitchen tonight at 7:30pm. It is not booked until they confirm it. Anything else?
+Guest: No, that is everything.
+AI: Thank you for calling. Enjoy your evening.
+
+[DISPATCHED: Concierge, normal]

@@ -1,0 +1,16 @@
+Time: Saturday 11:30pm
+Line: Room phone, room 730
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: Is room service still running? I would like to order some food.
+AI: Room service itself closed at 11:00pm. There is a limited overnight menu from 11:00pm to 6:30am, and those orders go through the front desk, so I can take it here.
+Guest: Great. A club sandwich and a bottle of still water, room 730.
+AI: I have that down for room 730. The menu overnight is limited, so I cannot promise both items until the order goes through.
+Guest: That is fine. How long will it take?
+AI: I do not have a delivery time for the overnight menu, and I do not want to guess at one. I am putting the order in right away.
+Guest: Okay, thank you.
+AI: To confirm: a club sandwich and a bottle of still water to room 730, from the overnight menu, taken here at the front desk. Anything else?
+Guest: No, that is it.
+AI: Thank you for calling. I am sending it through now.
+
+[DISPATCHED: Front desk, normal]

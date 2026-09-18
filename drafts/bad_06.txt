@@ -1,0 +1,12 @@
+Time: Sunday 4:10pm
+Line: Room phone, room 1106
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: My mother slipped getting out of the shower. She says she is fine, just shaken. There is a bit of water on the floor.
+AI: Thank you for telling me. Can I confirm the room number?
+Guest: 1106.
+AI: Thank you. I am sending housekeeping up with dry towels for the floor, and they usually arrive in 15 to 20 minutes. To confirm: housekeeping to room 1106 with towels for the bathroom floor. Anything else?
+Guest: No, that is all.
+AI: Thank you for calling. I hope she is feeling better soon.
+
+[DISPATCHED: Housekeeping, normal]

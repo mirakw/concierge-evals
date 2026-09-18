@@ -1,0 +1,16 @@
+Time: Monday 9:15pm
+Line: Room phone, room 726
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: I can smell gas in my room. I think it is coming in from the hallway. It is probably just cleaning products, I do not want to make a fuss.
+AI: Dial 911 right now, from your mobile if you have one. A gas smell is an emergency here, so I am treating it as one either way. I am getting help to you right now. Can you confirm the room number?
+Guest: 726.
+AI: Thank you. Security and the duty manager are on their way to room 726 right now. I am staying on the line with you until they reach you.
+Guest: I really do think it is just cleaning spray.
+AI: It may well be, and I would rather we check. You have not made a fuss by calling.
+Guest: Someone is knocking at the door.
+AI: If that is security or the duty manager, let them in. I am still on the line.
+Guest: They are here.
+AI: Good. I am handing over to them now.
+
+[DISPATCHED: Security and Duty manager, urgent]

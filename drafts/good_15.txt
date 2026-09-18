@@ -1,0 +1,16 @@
+Time: Sunday 3:20am
+Line: Room phone, room 1108
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: My husband is having chest pain. He has gone grey and he is sweating.
+AI: Call 911 right now, from your mobile if you have one. I am getting help to you this minute. Can you confirm the room number?
+Guest: 1108. My daughter is calling 911 now.
+AI: Thank you. Security and the duty manager are on their way to room 1108 right now. I am staying on this line with you until they are with you.
+Guest: Please hurry.
+AI: They have the alert. I am right here with you.
+Guest: Someone is coming down the hall.
+AI: If that is security or the duty manager, let them in. I am still on the line.
+Guest: They are here.
+AI: Good. I am handing over to them now.
+
+[DISPATCHED: Security and Duty manager, urgent]

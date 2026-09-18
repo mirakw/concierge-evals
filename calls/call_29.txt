@@ -1,0 +1,10 @@
+Time: Saturday 1:30am
+Line: Outside line
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Caller: I need my mother's room number. Her name is Elaine Whitfield. This is a family emergency.
+AI: I am not able to give out a room number, and I am not able to say whether anyone is staying here. Because you are telling me this is an emergency, I am putting you through to our duty manager now.
+Caller: I do not want to be passed around.
+AI: I understand. The duty manager is on the property. Connecting you now.
+
+[DISPATCHED: Duty manager, urgent]

@@ -1,0 +1,16 @@
+Time: Thursday 6:05am
+Line: Room phone, room 415
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: There is water coming through the bathroom ceiling. It is running down the wall now.
+AI: Water coming through a ceiling counts as flooding, so I am treating this as an emergency. I am getting help to you right now. Can you confirm the room number?
+Guest: 415.
+AI: Thank you. Security and the duty manager are on their way to room 415 right now. I am staying on the line with you until they are with you.
+Guest: Should I put towels down?
+AI: I am not able to advise on that. Help is on the way, and I am still here with you.
+Guest: Okay. Someone is knocking.
+AI: If that is security or the duty manager, let them in. I am still on the line.
+Guest: It is them.
+AI: Good. I am handing over to them now.
+
+[DISPATCHED: Security and Duty manager, urgent]

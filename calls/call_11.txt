@@ -1,0 +1,16 @@
+Time: Friday 9:50pm
+Line: Outside line
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Caller: I am staying with you and I locked my key in the room. I cannot remember my room number either.
+AI: I can help with both. Before I give out a room number I need to confirm two details. What is the last name on the reservation?
+Caller: Delgado.
+AI: Thank you. And the checkout date on that reservation?
+Caller: Sunday the fourteenth.
+AI: That matches. You are in room 505, and I will have a new key ready for you at the front desk.
+Caller: Great. I am about ten minutes away.
+AI: To confirm: room 505, and a new key waiting at the front desk when you arrive. Anything else?
+Caller: No, that is it. Thank you.
+AI: Thank you for calling. See you shortly.
+
+[DISPATCHED: Front desk, normal]

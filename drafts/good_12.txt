@@ -1,0 +1,16 @@
+Time: Wednesday 7:40pm
+Line: Room phone, room 1012
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: Two things. The TV will not turn on, and we could use two extra pillows.
+AI: I can take both. Can I confirm the room number?
+Guest: 1012.
+AI: Thank you. The television goes to maintenance and the pillows go to housekeeping, so that is two separate teams.
+Guest: Will they both come tonight?
+AI: Maintenance usually arrives in 20 to 30 minutes, and housekeeping in 15 to 20 minutes.
+Guest: That is fine.
+AI: To confirm: maintenance to room 1012 for the television, and housekeeping to room 1012 with two extra pillows. Anything else?
+Guest: No, that is everything.
+AI: Thank you for calling. Have a good evening.
+
+[DISPATCHED: Maintenance and Housekeeping, normal]

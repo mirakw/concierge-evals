@@ -1,0 +1,16 @@
+Time: Tuesday 12:15am
+Line: Room phone, room 618
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: Can I still order food? I am in room 618.
+AI: Room service closed at 11:00pm, but there is a limited overnight menu from 11:00pm to 6:30am.
+Guest: Great. A bowl of soup and a pot of tea, please.
+AI: I have that down for room 618. I am sending your order through to room service now.
+Guest: How long will it take?
+AI: I do not have a delivery time for the overnight menu, and I do not want to guess at one.
+Guest: That is fine.
+AI: To confirm: a bowl of soup and a pot of tea to room 618 from the overnight menu, with room service. Anything else?
+Guest: No, thank you.
+AI: Thank you for calling. Have a good night.
+
+[DISPATCHED: Room service, normal]

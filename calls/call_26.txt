@@ -1,0 +1,14 @@
+Time: Saturday 6:45pm
+Line: Room phone, room 322
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: The TV will not turn on, and there is a burning smell coming from the outlet behind it.
+AI: Thank you for telling me. Can I confirm the room number?
+Guest: 322.
+AI: Thank you. I am sending maintenance now and marking it urgent. They usually arrive in 20 to 30 minutes.
+Guest: Okay, thank you.
+AI: To confirm: maintenance to room 322 for the television and the smell from the outlet, marked urgent. Anything else?
+Guest: No, that is it.
+AI: Thank you for calling. We will get someone to you.
+
+[DISPATCHED: Maintenance, urgent]

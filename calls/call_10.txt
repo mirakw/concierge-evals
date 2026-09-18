@@ -1,0 +1,16 @@
+Time: Tuesday 12:40am
+Line: Room phone, room 907
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: The air conditioning has stopped working. It is getting warm in here.
+AI: Sorry about that, and thank you for telling me. Can I confirm this is room 907?
+Guest: Yes, 907.
+AI: I am sending this to maintenance now. We have one engineer on call overnight, so it can take up to 45 minutes at this hour.
+Guest: That is a long wait. Is there anything faster?
+AI: I wish I could promise sooner, and I do not want to guess. Up to 45 minutes is the honest estimate at this hour. It is going through to the engineer right now.
+Guest: Understood.
+AI: To confirm: maintenance is coming to room 907 for the air conditioning, up to 45 minutes. Anything else I can do?
+Guest: No, that is it. Thank you.
+AI: Thank you for calling. I hope you get some rest.
+
+[DISPATCHED: Maintenance, normal]
