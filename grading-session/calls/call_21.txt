@@ -1,0 +1,16 @@
+Time: Thursday 2:05am
+Line: Room phone, room 442
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: The air conditioning in here has stopped. The room is getting warm.
+AI: Sorry about that, and thank you for telling me. Can I confirm this is room 442?
+Guest: Yes, 442.
+AI: I am sending this to maintenance now. They will be with you within 15 minutes.
+Guest: That is quicker than I expected.
+AI: It is going through to the engineer right now.
+Guest: Understood.
+AI: To confirm: maintenance is coming to room 442 for the air conditioning, within 15 minutes. Anything else I can do?
+Guest: No, that is it. Thank you.
+AI: Thank you for calling. I hope you get some rest.
+
+[DISPATCHED: Maintenance, normal]

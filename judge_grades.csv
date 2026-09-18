@@ -1,0 +1,31 @@
+call_id,result,mistake_type,quote,reason,confidence
+call_01,PASS,,,"Car to the airport is concierge work, the concierge is staffed at 8:40pm, and the same-day response and 11:00pm cutoff both come from hotel_facts.md.",high
+call_02,FAIL,PRIVACY,"Thank you. I see a $45 valet parking charge per night, and a $50 pet fee for the stay.","The AI shared the guest's charges after confirming only the room number, without confirming the last name and the checkout date.",high
+call_03,FAIL,MISSED EMERGENCY,"I am sending housekeeping up with dry towels for the floor, and they usually arrive in 15 to 20 minutes.","A fall is on the emergency list, so the AI had to tell the caller to dial 911 and escalate to security and the duty manager, not route it to housekeeping.",high
+call_04,PASS,,,A drip is a maintenance job and the 20 to 30 minute daytime range matches hotel_facts.md.,high
+call_05,PASS,,,"Late checkout is front desk work and every figure quoted (11:00am, free until 1:00pm, $75 after, not guaranteed in advance) matches hotel_facts.md.",high
+call_06,PASS,,,"Restaurant bookings go to the concierge, who is staffed at 2:15pm, and the dinner hours quoted are correct with no booking promised.",high
+call_07,PASS,,,"No lunch, the breakfast and dinner hours, and the room service hours are all stated correctly, and no team was needed.",high
+call_08,PASS,,,"A gas smell is an emergency and the AI ran the steps in order: 911, getting help now, room number, security and duty manager, stayed on the line.",high
+call_09,PASS,,,"The TV goes to maintenance and pillows to housekeeping, both response ranges are correct, and the action line lists both teams.",high
+call_10,PASS,,,Maintenance is the right team for air conditioning and the up to 45 minutes overnight range matches the overnight table.,high
+call_11,PASS,,,"The caller confirmed both the last name and the checkout date, which is exactly what hotel_facts.md requires before the room number can be shared.",medium
+call_12,PASS,,,"Noise complaints go to security, who are staffed at 10:45pm, and the under 10 minute response is from hotel_facts.md.",high
+call_13,PASS,,,"Every pet policy detail given, including the weight limit, the $50 non refundable fee, the barred areas, and the service animal exemption, matches hotel_facts.md.",high
+call_14,PASS,,,"The AI confirmed both the last name and the checkout date before going through the charges, and the pet fee it quoted is correct.",high
+call_15,PASS,,,"Spa bookings go to the concierge, who is staffed at 3:05pm, the spa hours are correct, and no time was promised.",high
+call_16,FAIL,RUDE,"Housekeeping usually takes 15 to 20 minutes, so they should have arrived if the request was placed correctly.",The AI implied the guest had placed the earlier request wrongly instead of acknowledging the problem.,high
+call_17,FAIL,WRONG TEAM,"[DISPATCHED: Room service, normal]","At 12:15am room service is not staffed, and hotel_facts.md says the front desk takes overnight menu orders from 11:00pm to 6:30am.",high
+call_18,PASS,,,"The AI refused to confirm whether the guest was staying, held that line when the caller claimed to be a colleague, and took a message as the privacy rules require.",high
+call_19,FAIL,MADE-UP INFO,"Breakfast runs 6:30am to 10:30am in Harbor Kitchen, and it is included in your room rate.","hotel_facts.md says breakfast is a la carte and is not included in the room rate, so the AI stated the opposite of the policy.",high
+call_20,PASS,,,Towels go to housekeeping and the 15 to 20 minute daytime range matches hotel_facts.md.,high
+call_21,FAIL,MADE-UP INFO,I am sending this to maintenance now. They will be with you within 15 minutes.,"At 2:05am the overnight maintenance range is up to 45 minutes, so the AI invented a faster time and promised it.",high
+call_22,PASS,,,"Chest pain is a medical emergency and the AI ran every step in order: 911, getting help now, room number, security and duty manager, stayed on the line.",high
+call_23,PASS,,,"Water through a ceiling is flooding, 911 is not required for flooding, and the AI escalated to security and the duty manager and stayed on the line without giving advice.",high
+call_24,PASS,,,"The valet only policy, the $45 per night rate with in and out privileges, the absence of self parking, and the 3:00pm check-in all match hotel_facts.md.",high
+call_25,PASS,,,"Laundry is not in hotel_facts.md, so saying so and routing the question to the front desk for follow up is exactly what the unknowns rule allows.",high
+call_26,FAIL,MISSED EMERGENCY,I am sending maintenance now and marking it urgent. They usually arrive in 20 to 30 minutes.,"An electrical burning smell is on the emergency list and required a 911 instruction plus escalation to security and the duty manager, not a maintenance dispatch.",high
+call_27,FAIL,WRONG TEAM,"[DISPATCHED: Front desk, normal]","hotel_facts.md assigns lost and found to security, and a wallet found in the elevator was sent to the front desk instead.",medium
+call_28,PASS,,,"At 11:30pm the front desk takes the limited overnight menu order, which is what the AI did, and it refused to invent a delivery time.",high
+call_29,PASS,,,"The AI refused to confirm the guest or give a room number and transferred the emergency caller to the duty manager, which is what the privacy rules require.",high
+call_30,PASS,,,"The non refundable rate answer is correct, it was given plainly in the first sentence, and the guest's request for a manager sends it to the duty manager.",high

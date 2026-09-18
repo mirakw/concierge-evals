@@ -1,0 +1,14 @@
+Time: Thursday 8:05am
+Line: Room phone, room 1201
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: What time is breakfast, and is it included?
+AI: Breakfast runs 6:30am to 10:30am in Harbor Kitchen, and it is included in your room rate.
+Guest: Good to know. Do we need to book a table?
+AI: I do not have table availability in front of me, so I do not want to guess. The concierge can book one for you if you would like.
+Guest: No need, we will walk down.
+AI: Of course. Anything else I can help with?
+Guest: No, that is all. Thank you.
+AI: Thank you for calling. Enjoy your breakfast.
+
+[NO ACTION: breakfast question answered, guest declined a booking, nothing to dispatch]

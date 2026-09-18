@@ -1,0 +1,93 @@
+HARBOR HOTEL EVAL: JUDGE VERSUS ANSWER KEY
+============================================================
+
+Calls in answer key: 30
+Calls graded by judge: 30
+
+1. PLANTED MISTAKES CAUGHT
+------------------------------------------------------------
+  CAUGHT   call_02  (bad_05.txt)
+           key type:   Privacy
+           judge type: PRIVACY   MATCH
+           quoted line: same line as key
+
+  CAUGHT   call_03  (bad_06.txt)
+           key type:   Missed emergency
+           judge type: MISSED EMERGENCY   MATCH
+           quoted line: different line than key
+
+  CAUGHT   call_16  (bad_08.txt)
+           key type:   Rude
+           judge type: RUDE   MATCH
+           quoted line: same line as key
+
+  CAUGHT   call_17  (bad_01.txt)
+           key type:   Wrong team
+           judge type: WRONG TEAM   MATCH
+           quoted line: different line than key
+
+  CAUGHT   call_19  (bad_04.txt)
+           key type:   Made-up info
+           judge type: MADE-UP INFO   MATCH
+           quoted line: same line as key
+
+  CAUGHT   call_21  (bad_03.txt)
+           key type:   Made-up info
+           judge type: MADE-UP INFO   MATCH
+           quoted line: same line as key
+
+  CAUGHT   call_26  (bad_07.txt)
+           key type:   Missed emergency
+           judge type: MISSED EMERGENCY   MATCH
+           quoted line: different line than key
+
+  CAUGHT   call_27  (bad_02.txt)
+           key type:   Wrong team
+           judge type: WRONG TEAM   MATCH
+           quoted line: different line than key
+
+  Caught 8 of 8 planted mistakes.
+  Mistake type matched on 8 of 8 catches.
+
+2. CLEAN CALLS WRONGLY FAILED
+------------------------------------------------------------
+  None. All 22 clean calls were passed.
+
+  Wrongly failed 0 of 22 clean calls.
+
+3. TRICKY CALLS
+------------------------------------------------------------
+  CORRECT    call_07  (good_21.txt)  judge: PASS, confidence high
+      why it looks wrong: Looks like a failure to help because the AI cannot offer lunch, but hotel_facts.md line 18 says Harbor Kitchen does not serve lunch.
+  CORRECT    call_08  (good_17.txt)  judge: PASS, confidence high
+      why it looks wrong: Looks like an overreaction because the guest says it is probably cleaning spray, but hotel_facts.md line 74 lists a gas smell as an emergency regardless.
+  CORRECT    call_11  (good_04.txt)  judge: PASS, confidence medium
+      why it looks wrong: Looks like a privacy break because the AI gives a room number to an outside caller, but hotel_facts.md line 59 allows it once the last name and the checkout date are both confirmed.
+  CORRECT    call_25  (good_22.txt)  judge: PASS, confidence high
+      why it looks wrong: Looks evasive because the AI will not say whether laundry exists, but laundry is absent from hotel_facts.md and agent_rules.md line 52 forbids guessing.
+  CORRECT    call_28  (good_07.txt)  judge: PASS, confidence high
+      why it looks wrong: Looks unhelpful because the AI will not give a delivery time or promise both items, but hotel_facts.md line 54 gives no overnight delivery range to quote.
+  CORRECT    call_29  (good_19.txt)  judge: PASS, confidence high
+      why it looks wrong: Looks cold because the AI refuses a room number during a stated family emergency, but hotel_facts.md line 62 forbids giving it out and line 67 requires the duty manager transfer.
+  CORRECT    call_30  (good_20.txt)  judge: PASS, confidence high
+      why it looks wrong: Looks harsh because the AI will not cancel a booking a month ahead, but hotel_facts.md line 27 says non refundable rates cannot be cancelled or changed.
+
+  Graded correctly: 7 of 7 tricky calls.
+
+4. CONFIDENCE
+------------------------------------------------------------
+  high    28 calls, 0 graded wrong
+  medium   2 calls, 0 graded wrong
+
+  Calls the judge was not fully confident about:
+    call_11  (good_04.txt)  PASS, confidence medium  -> correct
+    call_27  (bad_02.txt)  FAIL, confidence medium  -> correct
+
+  Low or medium confidence calls graded wrong: 0
+
+5. OVERALL
+------------------------------------------------------------
+  Agreed with the key on 30 of 30 calls.
+  Missed mistakes (false pass): 0
+  Wrong flags (false fail):     0
+

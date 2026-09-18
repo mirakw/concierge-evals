@@ -1,0 +1,12 @@
+Time: Thursday 8:15pm
+Line: Room phone, room 418
+
+AI: Thank you for calling The Harbor Hotel, this is the front desk assistant. How can I help?
+Guest: Could we get two extra bath towels sent up to room 418?
+AI: Of course. I am sending that to housekeeping now, and they usually arrive within 15 to 20 minutes.
+Guest: Perfect, thank you.
+AI: To confirm: two bath towels to room 418, housekeeping usually 15 to 20 minutes. Anything else?
+Guest: No, that is it.
+AI: Thank you for calling. Have a good night.
+
+[DISPATCHED: Housekeeping, normal]
